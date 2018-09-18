@@ -136,6 +136,19 @@ return [
         'taglib_begin' => '{',
         // 标签库标签结束标记
         'taglib_end'   => '}',
+
+        /**
+         * @author Sen
+         */
+        // 视图输出字符串内容替换
+        'tpl_replace_string' => [
+            '__TPLSOUR__'    =>  '/static/tplsource',   //前台模板静态资源
+            '__JSON__'       =>  '/static/js/json_datas',
+            '__JS__'         =>  '/static/js/admin',
+            '__CSS__'        =>  '/static/css/admin',
+            '__IMG__'        =>  '/static/img/admin',
+            '__JSPLU__'      =>  '/static/plugin',
+        ],
     ],
 
     // 视图输出字符串内容替换
