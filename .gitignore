@@ -6,3 +6,5 @@ thinkphp
 /runtime
 .env
 /application/database.php
+/db.sql
+/db - test.sql

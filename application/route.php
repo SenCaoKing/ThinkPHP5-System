@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-
+/**
 return [
     '__pattern__' => [
         'name' => '\w+',
@@ -19,3 +19,14 @@ return [
     ],
 
 ];
+*/
+use think\Route;
+Route::group('', function(){
+    // 后台
+
+    // 前端
+    Route::group('web', function(){
+        Route::get('index', 'webshow/index/index'); // 首页
+
+    });
+});
